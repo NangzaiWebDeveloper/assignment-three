@@ -33,7 +33,7 @@
     </style>
     
 </head>
-<body>
+<body class="font-manrope">
     <header class="sm:container lg:container sm:mx-auto lg:mx-auto font-manrope">
         <nav class="my-10">
             <div class="navbar bg-base-100">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="navbar-end gap-5">
                     <i class="fa-solid fa-magnifying-glass text-[#89898B]"></i>
-                    <button class="btn bg-orange-500 border-0 px-10 text-white">Get Ticket</button>
+                    <button class="btn bg-[#FF4240] border-0 px-10 text-white">Get Ticket</button>
                 </div>
               </div>
         </nav>
@@ -353,7 +353,7 @@
               <h3 class="text-center text-4xl font-extrabold">Clients Question</h3>
               <p class="text-center text-[#13131863] font-medium text-sm mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat<br>dolor. Purus urna in sit nullam proin. </p>
           </div>
-          <div class="mt-20 flex-col lg:flex-row lg:flex gap-10">
+          <div class="mt-20 flex-col lg:flex-row items-center lg:flex gap-10">
               <div class="">
                 <img src="Images/11.png" alt="">
               </div>
@@ -400,7 +400,15 @@
                   </div>
                 </div>
                 <!-- Accordion 5 -->
-                
+                <div class="collapse collapse-arrow join-item border border-base-300">
+                  <input type="radio" name="my-accordion-4" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                      <h4 class="text-lg font-bold">Booking</h4>
+                  </div>
+                  <div class="collapse-content"> 
+                    <p class="text-[#13131863] font-normal text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim<br>sagittis turpis in magna.</p>
+                  </div>
+                </div>
                 
                 
               </div>
@@ -422,25 +430,22 @@
                 <div class="space-y-3 w-96 bg-[#BCED6D1A] shadow-xl p-7 rounded-lg">
                     <img src="Images/Group 1.png" alt="">
                     <p class="text-[#13131863] text-sm">Phone Number</p>
-                    <h2 class="card-title text-sm font-extrabold">(+62) 123-321-543</h2>
+                    <h2 class="card-title text-md font-extrabold">(+62) 123-321-543</h2>
                 </div>
                   <!-- box 2 -->
                 <div class="space-y-3 w-96 bg-[#FDDD5F1A] shadow-xl p-7 rounded-lg">
                     <img src="Images/Group 2.png" alt="">
                     <p class="text-[#13131863] text-sm">Email</p>
-                    <h2 class="card-title text-sm font-extrabold">hockeys@support.com</h2>
+                    <h2 class="card-title text-md font-extrabold">hockeys@support.com</h2>
                 </div>
                   <!-- box 3 -->
                 <div class="space-y-3 w-96 bg-[#629CF31A] shadow-xl p-7 rounded-lg">
                     <img src="Images/Group 3.png" alt="">
                     <p class="text-[#13131863] text-sm">Location</p>
-                    <h2 class="card-title text-sm font-extrabold">152/1 Mohakhali Wireless Gate</h2>
+                    <h2 class="card-title text-md font-extrabold">152/1 Mohakhali Wireless Gate</h2>
                 </div>
         
             </div>
-
-
-
 
 
                       <!-- this is Form     --------------------  -->
@@ -501,9 +506,67 @@
 
       </section>
 
-    </main>
-    <footer>
 
+      <!-- this is Social Icon section  -->
+      <section class="bg-[#0D0D1208] mt-14 rounded-xl">
+        <div class="py-14">
+          <h3 class="text-center text-2xl font-extrabold mb-6">Social Media</h3>
+            <div class="flex justify-center gap-10">
+                <i class="text-2xl fa-brands fa-twitter"></i>
+                <i class="text-2xl fa-brands fa-facebook-f"></i>
+                <i class="text-2xl fa-brands fa-square-instagram"></i>
+                <i class="text-2xl fa-brands fa-github"></i>
+            </div>
+        </div>
+      </section>
+
+    </main>
+
+
+                            <!-- this is footer section -->
+    <footer class="bg-[#131318] mt-24">
+          <div class="flex justify-between py-28 px-32">
+              <div class="space-y-5">
+                  <h1 class="text-white text-3xl font-extrabold">Get In Touch</h1>
+                  <p class="text-[#FFFFFF99] text-sm font-medium">Dit amet consectetur. Condimentum<br>adipiscing aliquam turpis placerat dolor. Purus<br>urna in sit nullam proin. </p>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-regular fa-envelope text-red-600"></i>
+                        <h5 class="text-[#FFFFFF99] text-sm font-medium" >hockeys@support.com</h5>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-phone text-red-600"></i>
+                        <h5 class="text-[#FFFFFF99] text-sm font-medium">(+62) 123-321-543</h5>
+                    </div>
+              </div>
+                  <div class="flex justify-between">
+                      <div>
+                          <h1 class="text-white text-3xl font-extrabold">Company</h1>
+                          <p class="text-[#FFFFFF99] text-sm font-medium leading-10">About us
+                            <br>Leadership
+                            <br>Careers
+                            <br>News & Article
+                            <br>Legal Notice</p>
+                      </div>
+                      <div>
+                          <h1 class="text-white text-3xl font-extrabold">Support  </h1>
+                          <p class="text-[#FFFFFF99] text-sm font-medium leading-10">Help Center
+                            <br>FAQ
+                            <br>Ticket Support
+                            <br>Contact Us</p>
+                      </div>
+                  </div>
+                <div>
+                    <h1 class="text-white text-3xl font-extrabold">Services</h1>
+                    <p class="text-[#FFFFFF99] text-sm font-medium leading-10">Academy
+                      <br>Group Lesson
+                      <br>Private Lesson
+                      <br>Hockeys for kids
+                      <br>Hockeys for Adult</p>
+                </div>
+              <div>
+
+              </div>
+          </div>
     </footer>
 </body>
 </html>
